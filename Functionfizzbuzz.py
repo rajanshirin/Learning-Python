@@ -8,7 +8,7 @@ def divisible (number1, number2):
 def fizbuzz (upperLimit = 100):
 	upperLimit = int (sys.argv[1])
 	for number in range(1, upperLimit+1):
-		if divisible(number, 3) and divisible (number, 5):
+		if divisible(number, 15):
 			print 'Fizzbuzz'
 		elif (divisible(number, 3)):
 			print 'Fizz'
@@ -19,4 +19,3 @@ def fizbuzz (upperLimit = 100):
 
 if __name__ == '__main__':
 	fizbuzz()
-	 
